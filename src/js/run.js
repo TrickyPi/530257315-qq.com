@@ -175,7 +175,7 @@ TArea.prototype = {
             return
         }
         if (!this.checkCounty.code && this.checkCity.code.substr(0, 1) !== '9') {
-            alert('请选择区或地区')
+            alert('请先选择区或地区')
             return
         }
         let outPutData = [
